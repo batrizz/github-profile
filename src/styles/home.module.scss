@@ -1,0 +1,103 @@
+.homepage {
+  padding: 10rem 4rem;
+
+  .imgGithub {
+    opacity: 5%;
+    width: 45%;
+    height: 45%;
+    top: 2rem;
+    left: 30rem;
+    position: absolute;
+    z-index: -1;
+  }
+  .text {
+    h1 {
+      font-size: 2.5rem;
+      padding: 2rem 0;
+    }
+    p {
+      font-weight: bold;
+      color: #808080;
+      padding: 0.5rem 0;
+    }
+  }
+  input {
+    width: 50%;
+    height: 4rem;
+    font-size: 1rem;
+    border: none;
+    padding: 0 1rem;
+    border-radius: 0.3rem;
+    outline: 0;
+  }
+  button {
+    width: 15%;
+    height: 4rem;
+    background: #32cd32;
+    border: none;
+    border-radius: 0.3rem;
+  }
+  .boxRepos {
+    margin-top: 4rem;
+    width: 40%;
+    background: white;
+    border-radius: 1rem;
+    img {
+      width: 30%;
+      height: 30%;
+      border-radius: 100%;
+      padding: 1rem;
+      margin-left: 1rem;
+      margin-top: 1rem;
+    }
+    h1 {
+      position: absolute;
+      top: 31rem;
+      left: 15rem;
+    }
+    button {
+      position: absolute;
+      left: 27rem;
+      top: 30.5rem;
+      transition: filter 2s;
+      background: transparent;
+      width: 2.5rem;
+
+      svg {
+        stroke: #808080;
+
+        &:hover {
+          stroke: #2e2e2e;
+        }
+      }
+    }
+    .repositoresList {
+      text-align: center;
+      list-style: none;
+      text-decoration: none;
+      li {
+        text-decoration: none;
+        border-radius: 0.3rem;
+        font-size: 1rem;
+        padding: 1.5rem;
+        border-top: 1px solid #ddd9ce;
+        background: white;
+        &:hover {
+          filter: brightness(0.9);
+        }
+        a {
+          cursor: pointer;
+          text-decoration: none;
+          color: #2e2e2e;
+          font-family: Lexend, sans-serif;
+          font-weight: 600;
+          line-height: 1.4rem;
+
+          &:hover {
+            color: black;
+          }
+        }
+      }
+    }
+  }
+}
