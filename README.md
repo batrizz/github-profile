@@ -18,7 +18,7 @@ b) Utlizar uma API pública e realizar o método GET.
 
 Este projeto foi desenvolvido com as seguintes tecnologias:
   
-- [HTML]
+- HTML
 - [React](https://reactjs.org)
 - [Next](https://nextjs.org/)
 - [Axios](https://axios-http.com/docs/intro)
