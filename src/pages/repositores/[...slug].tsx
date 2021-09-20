@@ -74,7 +74,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
   return {
     paths: [{
       params: {
-        slug: []
+        slug: ['batrizz', "podcastr-nlw"]
       }
     }],
     fallback: 'blocking'
